@@ -1,0 +1,36 @@
+@import "../../var.css";
+
+.container{
+    background-color: #0d1b2a;
+    margin-top: 50px;
+    display: flex;
+    /* padding-bottom: 10px; */
+    justify-content: space-around;
+    font-family: var(--font-roboto);
+    align-items: center;
+    color: var(--color-text);
+}
+
+.title h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+.title p{
+    font-size: 20px;
+}
+
+.list{
+    list-style: none;
+    margin: 10px;
+}
+.mediaItem{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+.mediaItem a{
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--color-text);
+}
