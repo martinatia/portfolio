@@ -26,6 +26,8 @@
     margin-bottom: 32px;
     font-family: var(--font-roboto);
     background: linear-gradient(90deg rgba(255,255,255,1) 70%, rgba(255,255,255,0) 120%);
+    /* animation: typing 3s steps(40) forwards;  */
+
     /* -webkit-text-fill-color: transparent; */
     /* -webkit-background-clip: text; */
     /* background-clip: transparent; */
@@ -45,6 +47,9 @@
     font-weight: 600;
     padding: 17px 26px;
     box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
+}
+.contactBtn:hover{
+    background-color: var(--color-hover);
 }
 
 .heroImg{
@@ -68,6 +73,14 @@
         transform: translate(0, -0px);
     }
 }
+/* @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  } */
 
 .topBlur{
     position: absolute;

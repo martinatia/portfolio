@@ -2,7 +2,8 @@
 .container {
   position: relative;
   /* background-color: rgba(91, 110, 111, 0.6); */
-  background-color: #778da9;   
+  /* background-color: #778da9;    */
+  background-color: var(--color-bg-secondary);
   border-radius: 15px;
   padding: 73px;
   margin-top: 129px;

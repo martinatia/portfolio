@@ -6,7 +6,7 @@ export const Navbar = () => {
   const  [menuOpen, setMenuOpen ]= useState(false);
   return (
     <nav className={styles.navbar}>
-      <a className={styles.title} href="/">
+      <a className={styles.title} href="/portfolio">
         Portfolio
       </a>
       <div className={styles.menu}>
@@ -22,7 +22,7 @@ export const Navbar = () => {
         />
         <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`} onClick={()=> setMenuOpen(false)}>
           <li>
-            <a href="#about">Acerca de</a>
+            <a href="#about" className="links">Acerca de</a>
           </li>
           <li>
             <a href="#experience">Experiencia</a>

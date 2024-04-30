@@ -23,10 +23,15 @@
     list-style: none;
     margin: 10px;
 }
+
 .mediaItem{
     padding: 15px;
     display: flex;
     align-items: center;
+}
+.mediaItem a:hover{
+    font-size: 25px;
+    color: var(--color-hover);
 }
 .mediaItem a{
     margin-left: 15px;

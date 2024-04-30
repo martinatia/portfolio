@@ -17,7 +17,11 @@
     text-decoration: none;
     color: var(--color-text);
 }
-
+.menuItems a:hover {
+    font-size: 30px;
+    /* color: var(--color-btn-primary); */
+    color: var(--color-hover);
+  }
 .menu{
     display: flex;
 
